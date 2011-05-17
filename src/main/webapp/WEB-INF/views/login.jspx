@@ -15,7 +15,7 @@
     </c:if>
     <c:if test="${empty param.login_error}">
       <p>
-        <spring:message code="security_login_message" />
+        Logowanie (domyślny login: jcg hasło: jcg)
       </p>
     </c:if>
     <spring:url value="/web/resources/j_spring_security_check" var="form_url" />

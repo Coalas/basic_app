@@ -6,7 +6,7 @@
       		
 <p><b>Panel Użytkownika</b></p>
    <p>
-   jcg-andygene-archetype includes the following
+   Aplikacja zawiera następujące komponenty
    <ul>
    	<li>Spring MVC</li>
    	<li>Spring Security</li>
