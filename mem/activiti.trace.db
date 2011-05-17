@@ -1,0 +1,4 @@
+05-17 11:59:14 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Tablela "ACT_GE_PROPERTY" nie istnieje
+Table "ACT_GE_PROPERTY" not found; SQL statement:
+select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' [42102-148]
