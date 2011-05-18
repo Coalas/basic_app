@@ -3,7 +3,7 @@
   <jsp:directive.page contentType="text/html;charset=UTF-8" />
   <jsp:output omit-xml-declaration="yes" />
   
-    <div id="createformbody" dojoType="dijit.form.Form" region="center" splitter="false" style="text-align: left;position: absolute;top: 50px;left: 50px;width:500px;height:200px">
+    <div id="createformbody" dojoType="dijit.form.Form" region="center" splitter="false" style="text-align: left;position: absolute;top: 50px;left: 50px;width:600px;height:200px">
     	<p><spring:message code="myentity_update_message" /></p>
  		
         <spring:url value="/web/myentity/" var="form_url" />

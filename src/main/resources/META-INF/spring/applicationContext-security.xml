@@ -12,12 +12,12 @@
         <logout logout-url="/web/resources/j_spring_security_logout" logout-success-url="/web/login"/>
         
         <!-- Configure these elements to secure URIs in your application -->
-        <intercept-url pattern="/reports/**" access="isAuthenticated()"/>
-        <intercept-url pattern="/activiti/**" access="isAuthenticated()"/>
-        <intercept-url pattern="/jms/**" access="isAuthenticated()"/>
-        <intercept-url pattern="/drools/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/web/reports/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/web/activiti/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/web/jms/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/web/drools/**" access="isAuthenticated()"/>
         <intercept-url pattern="/web/myentity/**" access="isAuthenticated()"/>
-        <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/web/users/**" access="hasRole('ROLE_ADMIN')"/>
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/webservices/**" access="permitAll" />
         <intercept-url pattern="/**" access="permitAll"/>
