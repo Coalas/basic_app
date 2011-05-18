@@ -26,9 +26,11 @@ public class MyEntity implements Serializable {
     private Long id;
 	
 	@Column(name = "name")
-	@Pattern(regexp = ".+", message = "Name must not be empty!")
+	@Pattern(regexp = ".+", message = "Pole nie może być puste!")
     private String name;
-	
+	@Column(name = "lastname")
+	@Pattern(regexp = ".+", message = "Pole nie może być puste!")
+    private String lastName;
 	public MyEntity() {
 		
 	}
@@ -57,7 +59,21 @@ public class MyEntity implements Serializable {
 
 	@Override
 	public String toString() {
-		return "MyEntity [id=" + id + ", name=" + name + "]";
+		return "MyEntity [id=" + id + ", name=" + name + lastName+"]";
+	}
+
+	/**
+	 * @param lastName the lastName to set
+	 */
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	/**
+	 * @return the lastName
+	 */
+	public String getLastName() {
+		return lastName;
 	}
 	
 	

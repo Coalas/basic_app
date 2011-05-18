@@ -33,7 +33,7 @@
 			dojo.require("dijit.form.ValidationTextBox");
 			dojo.require("dijit.form.TextBox");
 			dojo.require("dijit.form.Form");
-			dojo.requier("dijit.form.ComboBox");
+			dojo.require("dijit.form.ComboBox");
 
         </script>
         <link rel="stylesheet" type="text/css" href="${fn:escapeXml(css_url)}"/>
@@ -48,7 +48,7 @@
 
 </head>
 <body class=" claro ">
-<div dojoType="dijit.layout.BorderContainer" gutters="true"
+<div dojoType="dijit.layout.BorderContainer" gutters="false"
 	id="borderContainerTwo">
 	
 	<tiles:insertAttribute name="header" ignore="true" />

@@ -10,7 +10,7 @@
       	    
 			<table>
 			<tr><td><strong><spring:message code="myentity_show_id_message" /></strong></td><td><c:out value="${myentity.id }"></c:out></td></tr>
-			<tr><td><strong><spring:message code="myentity_show_name_message" /></strong></td><td><c:out value="${myentity.name }"></c:out></td></tr>      	
+			<tr><td><strong><spring:message code="myentity_show_name_message" /></strong></td><td><c:out value="${myentity.name }"></c:out></td><td><c:out value="${myentity.lastName }"></c:out></td></tr>      	
         	</table>
       	
     </div>

@@ -33,6 +33,9 @@
       			<c:out value="${myentity.name}" escapeXml="true"/>
     		</td>
     		<td align="left" width="200px">
+      			<c:out value="${myentity.lastName}" escapeXml="true"/>
+    		</td>
+    		<td align="left" width="200px">
     		
       		<spring:url value="/web/myentity/${myentity.id}" var="delete_url" />
     		<form:form  action="${fn:escapeXml(delete_url)}" method="DELETE" >

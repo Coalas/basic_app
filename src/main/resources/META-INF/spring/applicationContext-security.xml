@@ -16,7 +16,7 @@
         <intercept-url pattern="/activiti/**" access="isAuthenticated()"/>
         <intercept-url pattern="/jms/**" access="isAuthenticated()"/>
         <intercept-url pattern="/drools/**" access="isAuthenticated()"/>
-        <intercept-url pattern="/myentity/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/web/myentity/**" access="isAuthenticated()"/>
         <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')"/>
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/webservices/**" access="permitAll" />

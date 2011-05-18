@@ -3,31 +3,29 @@
   <jsp:directive.page contentType="text/html;charset=UTF-8" />
   <jsp:output omit-xml-declaration="yes" />
   
-    <div id="createformbody" dojoType="dijit.form.Form" region="center" splitter="false" style="text-align: center;position: absolute;top: 100px;left: 100px;width:200px;height:200px">
+    <div id="createformbody" dojoType="dijit.form.Form" region="center" splitter="false" style="text-align: left;position: absolute;top: 50px;left: 50px;width:500px;height:200px">
     	<p><spring:message code="myentity_update_message" /></p>
  		
         <spring:url value="/web/myentity/" var="form_url" />
     	<form:form name="f" action="${fn:escapeXml(form_url)}" method="PUT" modelAttribute="myEntity">
-      		<table>
-      		<tr><td>
-        	<strong><spring:message code="myentity_form_name_message" /></strong>
-        	</td>
-        	<td>
-        	<form:input path="id" type="hidden"/>
-          	<form:input path="name"/>
-          	<script type="text/javascript">
-          		 Spring.addDecoration(new Spring.ElementDecoration({	
-              	 elementId : "name",
-              	 widgetType : "dijit.form.ValidationTextBox",
-              	 widgetAttrs : {
-                  	 promptMessage: "Enter Name",
-                  	 required : true}}));
-                  	 
+
+          	<fieldset>
+			<legend><spring:message code="myentity_form_name_message" /></legend>
+			<form:input path="id" type="hidden"/>
+			Imię: <form:input path="name"/><form:errors path="name" class="errors"/>	
+			Nazwisko: <form:input path="lastName"/><form:errors path="lastName" class="errors"/>	
+			<script type="text/javascript">
+			dojo.query("form input:not([type='hidden'])").forEach(function(element) {
+		        Spring.addDecoration(new Spring.ElementDecoration({
+		            elementId: element.id,
+		            widgetType : "dijit.form.ValidationTextBox",
+		            widgetAttrs : { required : true }
+		        }));
+		    });
             </script>
-            </td><td><form:errors path="name" class="errors"/></td>
-            </tr>
-        </table>	
-      	<input dojoType="dijit.form.Button" id="proceed" type="submit" value="submit" label="Submit"/>
+			</fieldset>
+			
+        	<input dojoType="dijit.form.Button" id="proceed" type="submit" value="submit" label="OK"/>
            	<input dojoType="dijit.form.Button" id="reset" type="reset" value="reset" label="Reset"/>
       	
       	</form:form>
