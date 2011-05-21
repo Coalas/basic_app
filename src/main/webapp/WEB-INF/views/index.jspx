@@ -18,6 +18,7 @@
    	<li>JUnit</li>
    </ul>
    </p>
+   
    	<spring:url value="/webservices/" var="cxf_url" />	
  <p><a href="${fn:escapeXml(cxf_url)}">Link to cxf WebServices </a></p>        
      

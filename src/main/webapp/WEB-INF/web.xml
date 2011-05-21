@@ -82,6 +82,10 @@
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>    
+	<listener>
+    	<listener-class>pl.studioit.puzzlecrm.util.Config</listener-class>
+	</listener>
+	
     <!-- Handles Spring requests -->
     <servlet>
         <servlet-name>Andygene</servlet-name>
