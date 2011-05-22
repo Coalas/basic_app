@@ -142,3 +142,152 @@
 11:59:21,498  INFO BrokerService:583 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-56085-1305626349550-0:0) stopped
 11:59:22,609  INFO LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'myUnit'
 11:59:22,610  INFO SessionFactoryImpl:925 - closing
+12:56:56,691  INFO TestContextManager:185 - @TestExecutionListeners is not present for class [class pl.studioit.puzzlecrm.test.JCGTest]: using defaults.
+12:56:57,148  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-cxf.xml]
+12:56:57,915  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+12:56:58,086  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+12:56:58,164  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+12:56:58,533  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-drools.xml]
+12:57:01,970  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-jms.xml]
+12:57:03,148  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext.xml]
+12:57:03,777  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-activiti.xml]
+12:57:03,836  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-security.xml]
+12:57:04,029  INFO SpringSecurityCoreVersion:22 - You are running with Spring Security Core 3.0.5.RELEASE
+12:57:04,041  INFO SecurityNamespaceHandler:57 - Spring Security 'config' module version is 3.0.5.RELEASE
+12:57:04,258  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/reports/**
+12:57:04,259  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/activiti/**
+12:57:04,260  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/jms/**
+12:57:04,261  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/drools/**
+12:57:04,267  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/myentity/**
+12:57:04,268  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'hasRole('ROLE_ADMIN')' for /web/users/**
+12:57:04,269  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /resources/**
+12:57:04,270  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /webservices/**
+12:57:04,271  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /**
+12:57:04,420  INFO HttpSecurityBeanDefinitionParser:188 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 300, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 1900]
+12:57:04,477  INFO GenericApplicationContext:456 - Refreshing org.springframework.context.support.GenericApplicationContext@14384c2: startup date [Sun May 22 12:57:04 CEST 2011]; root of context hierarchy
+12:57:05,524  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/activiti.properties]
+12:57:05,544  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/activemq.properties]
+12:57:05,550  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/database.properties]
+12:57:06,072  INFO GenericApplicationContext:1332 - Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:57:06,074  INFO GenericApplicationContext:1332 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:57:06,086  INFO GenericApplicationContext:1332 - Bean 'cxf' of type [class org.apache.cxf.bus.CXFBusImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:57:06,180  INFO DefaultListableBeanFactory:555 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1dfd868: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,org.apache.cxf.transport.servlet.ServletTransportFactory,myEntitySOAP,myEntitySOAPService,resource1,kbase1,org.apache.activemq.xbean.XBeanBrokerService#0,jmsFactory,cachingConnectionFactory,jmsTemplate,myDestination,org.springframework.jms.listener.DefaultMessageListenerContainer#0,myQueueListener,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.config.internalBeanConfigurerAspect,reportsDAO,myEntityDAO,myQueueSender,myEntityService,reportsService,activitiService,droolsService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.h2.tools.Server,myDataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,entityManagerFactory,activitiBasicDataSource,activitiDataSource,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.config.http.UserDetailsServiceInjectionBeanPostProcessor#0,org.springframework.security.filterChainProxy,org.springframework.security.core.userdetails.memory.InMemoryDaoImpl#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+12:57:08,451  INFO LocalContainerEntityManagerFactoryBean:221 - Building JPA container EntityManagerFactory for persistence unit 'myUnit'
+12:57:08,968  INFO Version:37 - Hibernate Commons Annotations 3.2.0.Final
+12:57:09,012  INFO Environment:593 - Hibernate 3.6.0.Final
+12:57:09,018  INFO Environment:626 - hibernate.properties not found
+12:57:09,025  INFO Environment:804 - Bytecode provider name : javassist
+12:57:09,034  INFO Environment:685 - using JDK 1.4 java.sql.Timestamp handling
+12:57:09,317  INFO Version:42 - Hibernate EntityManager 3.6.0.Final
+12:57:09,366  INFO Ejb3Configuration:519 - Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+12:57:09,685  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.Reports
+12:57:09,769  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.Reports on table jcgreports
+12:57:09,865  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.MyEntity
+12:57:09,867  INFO SettingsFactory:406 - Cache region factory : net.sf.ehcache.hibernate.EhCacheRegionFactory
+12:57:09,898  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.MyEntity on table my_entity
+12:57:09,917  INFO Configuration:1646 - Hibernate Validator not found: ignoring
+12:57:09,966  INFO Version:56 - Hibernate Validator 4.1.0.Final
+12:57:09,986  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+12:57:10,179  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+12:57:10,188  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+12:57:10,199  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+12:57:10,211  INFO ConnectionProviderFactory:173 - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+12:57:10,219  INFO InjectedDataSourceConnectionProvider:62 - Using provided datasource
+12:57:13,554  INFO SettingsFactory:117 - Database ->
+       name : H2
+    version : 1.3.148 (2010-12-12)
+      major : 1
+      minor : 3
+12:57:13,555  INFO SettingsFactory:123 - Driver ->
+       name : H2 JDBC Driver
+    version : 1.3.148 (2010-12-12)
+      major : 1
+      minor : 3
+12:57:13,654  INFO Dialect:108 - Using dialect: org.hibernate.dialect.H2Dialect
+12:57:13,717  INFO JdbcSupportLoader:79 - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+12:57:13,721  INFO TransactionFactoryFactory:62 - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+12:57:13,725  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+12:57:13,727  INFO SettingsFactory:179 - Automatic flush during beforeCompletion(): disabled
+12:57:13,728  INFO SettingsFactory:183 - Automatic session close at end of transaction: disabled
+12:57:13,729  INFO SettingsFactory:190 - JDBC batch size: 15
+12:57:13,730  INFO SettingsFactory:193 - JDBC batch updates for versioned data: disabled
+12:57:13,733  INFO SettingsFactory:198 - Scrollable result sets: enabled
+12:57:13,734  INFO SettingsFactory:206 - JDBC3 getGeneratedKeys(): enabled
+12:57:13,736  INFO SettingsFactory:214 - Connection release mode: auto
+12:57:13,738  INFO SettingsFactory:241 - Default batch fetch size: 1
+12:57:13,740  INFO SettingsFactory:245 - Generate SQL with comments: disabled
+12:57:13,742  INFO SettingsFactory:249 - Order SQL updates by primary key: disabled
+12:57:13,744  INFO SettingsFactory:253 - Order SQL inserts for batching: disabled
+12:57:13,756  INFO SettingsFactory:431 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+12:57:13,764  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+12:57:13,766  INFO SettingsFactory:261 - Query language substitutions: {}
+12:57:13,767  INFO SettingsFactory:266 - JPA-QL strict compliance: enabled
+12:57:13,768  INFO SettingsFactory:271 - Second-level cache: enabled
+12:57:13,770  INFO SettingsFactory:275 - Query cache: enabled
+12:57:13,772  INFO SettingsFactory:406 - Cache region factory : net.sf.ehcache.hibernate.EhCacheRegionFactory
+12:57:13,773  INFO SettingsFactory:285 - Optimize cache for minimal puts: enabled
+12:57:13,774  INFO SettingsFactory:294 - Structured second-level cache entries: disabled
+12:57:13,775  INFO SettingsFactory:385 - Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+12:57:13,794  INFO SettingsFactory:314 - Echoing all SQL to stdout
+12:57:13,796  INFO SettingsFactory:323 - Statistics: disabled
+12:57:13,797  INFO SettingsFactory:327 - Deleted entity synthetic identifier rollback: disabled
+12:57:13,798  INFO SettingsFactory:343 - Default entity-mode: pojo
+12:57:13,799  INFO SettingsFactory:347 - Named query checking : enabled
+12:57:13,800  INFO SettingsFactory:351 - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+12:57:13,939  INFO SessionFactoryImpl:200 - building session factory
+12:57:13,962  WARN AbstractEhcacheRegionFactory:201 - No TransactionManagerLookup found in Hibernate config, XA Caches will be participating in the two-phase commit!
+12:57:13,973  WARN ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/ko/.m2/repository/net/sf/ehcache/ehcache-core/2.3.1/ehcache-core-2.3.1.jar!/ehcache-failsafe.xml
+12:57:14,519  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [pl.studioit.puzzlecrm.domain.MyEntity]; using defaults.
+12:57:14,747  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+12:57:14,760  INFO SchemaUpdate:155 - Running hbm2ddl schema update
+12:57:14,761  INFO SchemaUpdate:167 - fetching database metadata
+12:57:14,775  INFO SchemaUpdate:179 - updating schema
+12:57:14,778  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+12:57:14,831  INFO TableMetadata:65 - table found: ANDYGENE.PUBLIC.JCGREPORTS
+12:57:14,832  INFO TableMetadata:66 - columns: [price, description, reports_id, name]
+12:57:14,833  INFO TableMetadata:68 - foreign keys: []
+12:57:14,834  INFO TableMetadata:69 - indexes: [primary_key_a]
+12:57:14,857  INFO TableMetadata:65 - table found: ANDYGENE.PUBLIC.MY_ENTITY
+12:57:14,864  INFO TableMetadata:66 - columns: [id, name]
+12:57:14,865  INFO TableMetadata:68 - foreign keys: []
+12:57:14,867  INFO TableMetadata:69 - indexes: [primary_key_d]
+12:57:14,929  INFO SchemaUpdate:217 - schema update complete
+12:57:14,951  INFO UpdateTimestampsCache:57 - starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+12:57:14,955  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+12:57:14,971  INFO StandardQueryCache:76 - starting query cache at region: org.hibernate.cache.StandardQueryCache
+12:57:14,986  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+12:57:17,418  INFO UpdateChecker:98 - New update(s) found: 2.4.2 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+12:57:23,632  INFO BrokerService:1370 - Successfully deleted temporary storage
+12:57:23,666  INFO BrokerService:462 - Using Persistence Adapter: AMQPersistenceAdapter(activemq)
+12:57:23,804  INFO AMQPersistenceAdapter:177 - AMQStore starting using directory: activemq
+12:57:23,978  INFO KahaStore:463 - Kaha Store using data directory activemq/kr-store/state
+12:57:24,245  INFO ManagementContext:106 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+12:57:24,278  INFO AMQPersistenceAdapter:235 - Active data files: []
+12:57:24,401  INFO BrokerService:703 - ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+12:57:24,403  INFO BrokerService:705 - For help or more information please see: http://activemq.apache.org/
+12:57:24,663  INFO KahaStore:463 - Kaha Store using data directory activemq/kr-store/data
+12:57:24,945  INFO TransportServerThreadSupport:72 - Listening for connections at: tcp://localhost.localdomain:61616
+12:57:24,947  INFO TransportConnector:250 - Connector tcp://localhost:61616 Started
+12:57:24,950  INFO BrokerService:502 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-41592-1306061844470-0:0) started
+12:57:30,056  INFO FilterSecurityInterceptor:156 - Validated configuration attributes
+12:57:30,553  INFO DefaultLifecycleProcessor:330 - Starting beans in phase 2147483647
+12:57:30,571  INFO TransportConnector:250 - Connector vm://localhost Started
+12:57:31,497  INFO MyEntityServiceImpl:26 - persist MyEntity [id=2, name=testnull]
+12:57:31,605  INFO ActivitiService:25 - Starting Process
+12:57:32,124  INFO ActivitiService:32 - Java Code Geeks Say Hello To Activiti
+12:57:32,289  INFO DroolsService:39 - Executing Rules
+12:57:32,320  INFO CachingConnectionFactory:291 - Established shared JMS Connection: ActiveMQConnection {id=ID:studiobox-41592-1306061844470-2:1,clientId=null,started=false}
+12:57:32,388  INFO MyQueueSender:45 - Message Send
+12:57:32,424  INFO MyQueueListener:14 - JMS message received: test
+12:57:32,508  INFO GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@14384c2: startup date [Sun May 22 12:57:04 CEST 2011]; root of context hierarchy
+12:57:32,510  INFO BrokerService:537 - ActiveMQ Message Broker (localhost, ID:studiobox-41592-1306061844470-0:0) is shutting down
+12:57:32,527  INFO DefaultLifecycleProcessor:345 - Stopping beans in phase 2147483647
+12:57:32,963  INFO TransportConnector:285 - Connector tcp://localhost:61616 Stopped
+12:57:32,968  INFO KahaStore:463 - Kaha Store using data directory activemq-data/localhost/tmp_storage
+12:57:32,984  INFO TransportConnector:285 - Connector vm://localhost Stopped
+12:57:33,154  INFO BrokerService:583 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-41592-1306061844470-0:0) stopped
+12:57:33,443  INFO DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1dfd868: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,org.apache.cxf.transport.servlet.ServletTransportFactory,myEntitySOAP,myEntitySOAPService,resource1,kbase1,org.apache.activemq.xbean.XBeanBrokerService#0,jmsFactory,cachingConnectionFactory,jmsTemplate,myDestination,org.springframework.jms.listener.DefaultMessageListenerContainer#0,myQueueListener,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.config.internalBeanConfigurerAspect,reportsDAO,myEntityDAO,myQueueSender,myEntityService,reportsService,activitiService,droolsService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.h2.tools.Server,myDataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,entityManagerFactory,activitiBasicDataSource,activitiDataSource,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.config.http.UserDetailsServiceInjectionBeanPostProcessor#0,org.springframework.security.filterChainProxy,org.springframework.security.core.userdetails.memory.InMemoryDaoImpl#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+12:57:33,686  INFO LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'myUnit'
+12:57:33,688  INFO SessionFactoryImpl:925 - closing

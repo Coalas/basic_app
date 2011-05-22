@@ -18,8 +18,9 @@
    	<li>JUnit</li>
    </ul>
    </p>
+requestURI: <c:out value="${requestScope['javax.servlet.forward.request_uri']}"></c:out>
    
-   	<spring:url value="/webservices/" var="cxf_url" />	
+ <spring:url value="/webservices/" var="cxf_url" />	
  <p><a href="${fn:escapeXml(cxf_url)}">Link to cxf WebServices </a></p>        
      
 </div> 
