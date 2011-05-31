@@ -6205,3 +6205,1003 @@
 20:49:46,884  INFO BrokerService:583 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-43153-1306781378301-0:0) stopped
 20:49:46,899  INFO LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'myUnit'
 20:49:46,902  INFO SessionFactoryImpl:925 - closing
+16:10:28,080  INFO TestContextManager:185 - @TestExecutionListeners is not present for class [class pl.studioit.puzzlecrm.test.JCGTest]: using defaults.
+16:10:28,882  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-cxf.xml]
+16:10:29,782  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+16:10:29,955  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+16:10:30,073  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+16:10:30,484  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-drools.xml]
+16:10:32,286  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-jms.xml]
+16:10:33,441  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext.xml]
+16:10:34,018  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-activiti.xml]
+16:10:34,096  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-security.xml]
+16:10:34,264  INFO SpringSecurityCoreVersion:22 - You are running with Spring Security Core 3.0.5.RELEASE
+16:10:34,275  INFO SecurityNamespaceHandler:57 - Spring Security 'config' module version is 3.0.5.RELEASE
+16:10:34,451  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/reports/**
+16:10:34,460  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/activiti/**
+16:10:34,461  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/jms/**
+16:10:34,463  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/drools/**
+16:10:34,478  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/myentity/**
+16:10:34,479  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'hasRole('ROLE_ADMIN')' for /web/users/**
+16:10:34,480  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /resources/**
+16:10:34,481  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /webservices/**
+16:10:34,482  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /**
+16:10:41,556  INFO HttpSecurityBeanDefinitionParser:188 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 300, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 1900]
+16:10:41,647  INFO GenericApplicationContext:456 - Refreshing org.springframework.context.support.GenericApplicationContext@64c34e: startup date [Tue May 31 16:10:41 CEST 2011]; root of context hierarchy
+16:10:42,568  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/activiti.properties]
+16:10:42,600  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/activemq.properties]
+16:10:42,601  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/database.properties]
+16:10:43,234  INFO GenericApplicationContext:1332 - Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:10:43,243  INFO GenericApplicationContext:1332 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:10:43,258  INFO GenericApplicationContext:1332 - Bean 'cxf' of type [class org.apache.cxf.bus.CXFBusImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:10:43,311  INFO DefaultListableBeanFactory:555 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8aeed0: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,org.apache.cxf.transport.servlet.ServletTransportFactory,myEntitySOAP,myEntitySOAPService,resource1,kbase1,org.apache.activemq.xbean.XBeanBrokerService#0,jmsFactory,cachingConnectionFactory,jmsTemplate,myDestination,org.springframework.jms.listener.DefaultMessageListenerContainer#0,myQueueListener,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.config.internalBeanConfigurerAspect,reportsDAO,categoryDAO,myEntityDAO,myQueueSender,myEntityService,categoryService,reportsService,activitiService,droolsService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.h2.tools.Server,myDataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,entityManagerFactory,activitiBasicDataSource,activitiDataSource,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.config.http.UserDetailsServiceInjectionBeanPostProcessor#0,org.springframework.security.filterChainProxy,org.springframework.security.core.userdetails.memory.InMemoryDaoImpl#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+16:10:45,677  INFO LocalContainerEntityManagerFactoryBean:221 - Building JPA container EntityManagerFactory for persistence unit 'myUnit'
+16:10:45,980 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1ac13d7
+16:10:45,981 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1ac13d7
+16:10:45,982 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1ac13d7
+16:10:45,985 DEBUG BasicTypeRegistry:144 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@122cc7e
+16:10:45,996 DEBUG BasicTypeRegistry:144 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5878d2
+16:10:45,998 DEBUG BasicTypeRegistry:144 - Adding type registration yes_no -> org.hibernate.type.YesNoType@15b55bc
+16:10:46,003 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@d37b87
+16:10:46,004 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@d37b87
+16:10:46,006 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d37b87
+16:10:46,011 DEBUG BasicTypeRegistry:144 - Adding type registration character -> org.hibernate.type.CharacterType@196de29
+16:10:46,012 DEBUG BasicTypeRegistry:144 - Adding type registration char -> org.hibernate.type.CharacterType@196de29
+16:10:46,013 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@196de29
+16:10:46,019 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@539f0d
+16:10:46,020 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@539f0d
+16:10:46,021 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@539f0d
+16:10:46,024 DEBUG BasicTypeRegistry:144 - Adding type registration integer -> org.hibernate.type.IntegerType@17210a5
+16:10:46,025 DEBUG BasicTypeRegistry:144 - Adding type registration int -> org.hibernate.type.IntegerType@17210a5
+16:10:46,026 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@17210a5
+16:10:46,031 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@19977bd
+16:10:46,031 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@19977bd
+16:10:46,032 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@19977bd
+16:10:46,037 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@ccd21c
+16:10:46,038 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@ccd21c
+16:10:46,038 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@ccd21c
+16:10:46,042 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@17361e2
+16:10:46,043 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@17361e2
+16:10:46,044 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@17361e2
+16:10:46,048 DEBUG BasicTypeRegistry:144 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4dd1b
+16:10:46,049 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4dd1b
+16:10:46,052 DEBUG BasicTypeRegistry:144 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@14e9851
+16:10:46,053 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@14e9851
+16:10:46,056 DEBUG BasicTypeRegistry:144 - Adding type registration string -> org.hibernate.type.StringType@fbcb70
+16:10:46,057 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.String -> org.hibernate.type.StringType@fbcb70
+16:10:46,061 DEBUG BasicTypeRegistry:144 - Adding type registration url -> org.hibernate.type.UrlType@8c858a
+16:10:46,062 DEBUG BasicTypeRegistry:144 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@8c858a
+16:10:46,086 DEBUG BasicTypeRegistry:144 - Adding type registration date -> org.hibernate.type.DateType@257b34
+16:10:46,087 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@257b34
+16:10:46,093 DEBUG BasicTypeRegistry:144 - Adding type registration time -> org.hibernate.type.TimeType@d28dfa
+16:10:46,094 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@d28dfa
+16:10:46,100 DEBUG BasicTypeRegistry:144 - Adding type registration timestamp -> org.hibernate.type.TimestampType@14af9f7
+16:10:46,101 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@14af9f7
+16:10:46,102 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@14af9f7
+16:10:46,106 DEBUG BasicTypeRegistry:144 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@43487e
+16:10:46,111 DEBUG BasicTypeRegistry:144 - Adding type registration calendar -> org.hibernate.type.CalendarType@e920f
+16:10:46,111 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@e920f
+16:10:46,112 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@e920f
+16:10:46,114 DEBUG BasicTypeRegistry:144 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@174cb21
+16:10:46,117 DEBUG BasicTypeRegistry:144 - Adding type registration locale -> org.hibernate.type.LocaleType@1b963c4
+16:10:46,118 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1b963c4
+16:10:46,121 DEBUG BasicTypeRegistry:144 - Adding type registration currency -> org.hibernate.type.CurrencyType@180f545
+16:10:46,122 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@180f545
+16:10:46,125 DEBUG BasicTypeRegistry:144 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@f77511
+16:10:46,126 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@f77511
+16:10:46,130 DEBUG BasicTypeRegistry:144 - Adding type registration class -> org.hibernate.type.ClassType@152853d
+16:10:46,130 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@152853d
+16:10:46,135 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@150f0a7
+16:10:46,136 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@150f0a7
+16:10:46,138 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@ea3932
+16:10:46,141 DEBUG BasicTypeRegistry:144 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@1a631cc
+16:10:46,147 DEBUG BasicTypeRegistry:144 - Adding type registration binary -> org.hibernate.type.BinaryType@b2e752
+16:10:46,147 DEBUG BasicTypeRegistry:144 - Adding type registration byte[] -> org.hibernate.type.BinaryType@b2e752
+16:10:46,148 DEBUG BasicTypeRegistry:144 - Adding type registration [B -> org.hibernate.type.BinaryType@b2e752
+16:10:46,152 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@c5d9c1
+16:10:46,153 DEBUG BasicTypeRegistry:144 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@c5d9c1
+16:10:46,153 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@c5d9c1
+16:10:46,156 DEBUG BasicTypeRegistry:144 - Adding type registration image -> org.hibernate.type.ImageType@b9132a
+16:10:46,159 DEBUG BasicTypeRegistry:144 - Adding type registration characters -> org.hibernate.type.CharArrayType@881cb3
+16:10:46,160 DEBUG BasicTypeRegistry:144 - Adding type registration char[] -> org.hibernate.type.CharArrayType@881cb3
+16:10:46,161 DEBUG BasicTypeRegistry:144 - Adding type registration [C -> org.hibernate.type.CharArrayType@881cb3
+16:10:46,164 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1a40247
+16:10:46,164 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1a40247
+16:10:46,165 DEBUG BasicTypeRegistry:144 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1a40247
+16:10:46,167 DEBUG BasicTypeRegistry:144 - Adding type registration text -> org.hibernate.type.TextType@1e7d503
+16:10:46,173 DEBUG BasicTypeRegistry:144 - Adding type registration blob -> org.hibernate.type.BlobType@5388b5
+16:10:46,174 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5388b5
+16:10:46,176 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@79ac92
+16:10:46,182 DEBUG BasicTypeRegistry:144 - Adding type registration clob -> org.hibernate.type.ClobType@dd89f9
+16:10:46,185 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@dd89f9
+16:10:46,194 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3c35fd
+16:10:46,199 DEBUG BasicTypeRegistry:144 - Adding type registration serializable -> org.hibernate.type.SerializableType@482bad
+16:10:46,207 DEBUG BasicTypeRegistry:144 - Adding type registration object -> org.hibernate.type.ObjectType@1286b10
+16:10:46,208 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1286b10
+16:10:46,210 DEBUG BasicTypeRegistry:144 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1d4340c
+16:10:46,218 DEBUG BasicTypeRegistry:144 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@c7833c
+16:10:46,219 DEBUG BasicTypeRegistry:144 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@790192
+16:10:46,220 DEBUG BasicTypeRegistry:144 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5646a5
+16:10:46,221 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@381a9c
+16:10:46,221 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@15b011c
+16:10:46,222 DEBUG BasicTypeRegistry:144 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1a5e65f
+16:10:46,224 DEBUG BasicTypeRegistry:144 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@b79701
+16:10:46,288  INFO Version:37 - Hibernate Commons Annotations 3.2.0.Final
+16:10:46,351  INFO Environment:593 - Hibernate 3.6.0.Final
+16:10:46,356  INFO Environment:626 - hibernate.properties not found
+16:10:46,363  INFO Environment:804 - Bytecode provider name : javassist
+16:10:46,381  INFO Environment:685 - using JDK 1.4 java.sql.Timestamp handling
+16:10:46,589  INFO Version:42 - Hibernate EntityManager 3.6.0.Final
+16:10:46,590 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1ac13d7
+16:10:46,591 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1ac13d7
+16:10:46,592 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1ac13d7
+16:10:46,593 DEBUG BasicTypeRegistry:144 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@122cc7e
+16:10:46,594 DEBUG BasicTypeRegistry:144 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5878d2
+16:10:46,595 DEBUG BasicTypeRegistry:144 - Adding type registration yes_no -> org.hibernate.type.YesNoType@15b55bc
+16:10:46,596 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@d37b87
+16:10:46,596 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@d37b87
+16:10:46,597 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d37b87
+16:10:46,600 DEBUG BasicTypeRegistry:144 - Adding type registration character -> org.hibernate.type.CharacterType@196de29
+16:10:46,601 DEBUG BasicTypeRegistry:144 - Adding type registration char -> org.hibernate.type.CharacterType@196de29
+16:10:46,602 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@196de29
+16:10:46,604 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@539f0d
+16:10:46,605 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@539f0d
+16:10:46,606 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@539f0d
+16:10:46,607 DEBUG BasicTypeRegistry:144 - Adding type registration integer -> org.hibernate.type.IntegerType@17210a5
+16:10:46,608 DEBUG BasicTypeRegistry:144 - Adding type registration int -> org.hibernate.type.IntegerType@17210a5
+16:10:46,609 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@17210a5
+16:10:46,610 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@19977bd
+16:10:46,611 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@19977bd
+16:10:46,612 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@19977bd
+16:10:46,612 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@ccd21c
+16:10:46,613 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@ccd21c
+16:10:46,614 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@ccd21c
+16:10:46,615 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@17361e2
+16:10:46,616 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@17361e2
+16:10:46,616 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@17361e2
+16:10:46,617 DEBUG BasicTypeRegistry:144 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4dd1b
+16:10:46,618 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4dd1b
+16:10:46,619 DEBUG BasicTypeRegistry:144 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@14e9851
+16:10:46,620 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@14e9851
+16:10:46,620 DEBUG BasicTypeRegistry:144 - Adding type registration string -> org.hibernate.type.StringType@fbcb70
+16:10:46,621 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.String -> org.hibernate.type.StringType@fbcb70
+16:10:46,622 DEBUG BasicTypeRegistry:144 - Adding type registration url -> org.hibernate.type.UrlType@8c858a
+16:10:46,623 DEBUG BasicTypeRegistry:144 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@8c858a
+16:10:46,624 DEBUG BasicTypeRegistry:144 - Adding type registration date -> org.hibernate.type.DateType@257b34
+16:10:46,624 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@257b34
+16:10:46,625 DEBUG BasicTypeRegistry:144 - Adding type registration time -> org.hibernate.type.TimeType@d28dfa
+16:10:46,626 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@d28dfa
+16:10:46,627 DEBUG BasicTypeRegistry:144 - Adding type registration timestamp -> org.hibernate.type.TimestampType@14af9f7
+16:10:46,628 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@14af9f7
+16:10:46,628 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@14af9f7
+16:10:46,629 DEBUG BasicTypeRegistry:144 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@43487e
+16:10:46,630 DEBUG BasicTypeRegistry:144 - Adding type registration calendar -> org.hibernate.type.CalendarType@e920f
+16:10:46,631 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@e920f
+16:10:46,632 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@e920f
+16:10:46,633 DEBUG BasicTypeRegistry:144 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@174cb21
+16:10:46,634 DEBUG BasicTypeRegistry:144 - Adding type registration locale -> org.hibernate.type.LocaleType@1b963c4
+16:10:46,634 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1b963c4
+16:10:46,635 DEBUG BasicTypeRegistry:144 - Adding type registration currency -> org.hibernate.type.CurrencyType@180f545
+16:10:46,636 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@180f545
+16:10:46,637 DEBUG BasicTypeRegistry:144 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@f77511
+16:10:46,638 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@f77511
+16:10:46,638 DEBUG BasicTypeRegistry:144 - Adding type registration class -> org.hibernate.type.ClassType@152853d
+16:10:46,639 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@152853d
+16:10:46,642 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@150f0a7
+16:10:46,643 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@150f0a7
+16:10:46,644 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@ea3932
+16:10:46,648 DEBUG BasicTypeRegistry:144 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@1a631cc
+16:10:46,649 DEBUG BasicTypeRegistry:144 - Adding type registration binary -> org.hibernate.type.BinaryType@b2e752
+16:10:46,650 DEBUG BasicTypeRegistry:144 - Adding type registration byte[] -> org.hibernate.type.BinaryType@b2e752
+16:10:46,651 DEBUG BasicTypeRegistry:144 - Adding type registration [B -> org.hibernate.type.BinaryType@b2e752
+16:10:46,652 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@c5d9c1
+16:10:46,652 DEBUG BasicTypeRegistry:144 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@c5d9c1
+16:10:46,653 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@c5d9c1
+16:10:46,654 DEBUG BasicTypeRegistry:144 - Adding type registration image -> org.hibernate.type.ImageType@b9132a
+16:10:46,655 DEBUG BasicTypeRegistry:144 - Adding type registration characters -> org.hibernate.type.CharArrayType@881cb3
+16:10:46,655 DEBUG BasicTypeRegistry:144 - Adding type registration char[] -> org.hibernate.type.CharArrayType@881cb3
+16:10:46,656 DEBUG BasicTypeRegistry:144 - Adding type registration [C -> org.hibernate.type.CharArrayType@881cb3
+16:10:46,657 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1a40247
+16:10:46,658 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1a40247
+16:10:46,659 DEBUG BasicTypeRegistry:144 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1a40247
+16:10:46,660 DEBUG BasicTypeRegistry:144 - Adding type registration text -> org.hibernate.type.TextType@1e7d503
+16:10:46,661 DEBUG BasicTypeRegistry:144 - Adding type registration blob -> org.hibernate.type.BlobType@5388b5
+16:10:46,662 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5388b5
+16:10:46,663 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@79ac92
+16:10:46,664 DEBUG BasicTypeRegistry:144 - Adding type registration clob -> org.hibernate.type.ClobType@dd89f9
+16:10:46,665 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@dd89f9
+16:10:46,665 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3c35fd
+16:10:46,666 DEBUG BasicTypeRegistry:144 - Adding type registration serializable -> org.hibernate.type.SerializableType@482bad
+16:10:46,667 DEBUG BasicTypeRegistry:144 - Adding type registration object -> org.hibernate.type.ObjectType@1286b10
+16:10:46,668 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1286b10
+16:10:46,669 DEBUG BasicTypeRegistry:144 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1ae939f
+16:10:46,670 DEBUG BasicTypeRegistry:144 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5db9eb
+16:10:46,670 DEBUG BasicTypeRegistry:144 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@15925c0
+16:10:46,671 DEBUG BasicTypeRegistry:144 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1bd9d76
+16:10:46,672 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1acee78
+16:10:46,673 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5c1eae
+16:10:46,674 DEBUG BasicTypeRegistry:144 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1e26602
+16:10:46,675 DEBUG BasicTypeRegistry:144 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@9722c9
+16:10:46,714  INFO Ejb3Configuration:519 - Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+16:10:47,091  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.MyEntity
+16:10:47,168  INFO SettingsFactory:406 - Cache region factory : net.sf.ehcache.hibernate.EhCacheRegionFactory
+16:10:47,249  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.MyEntity on table my_entity
+16:10:47,356  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.Category
+16:10:47,357  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.Category on table category
+16:10:47,430  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.Reports
+16:10:47,432  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.Reports on table jcgreports
+16:10:47,458  INFO CollectionBinder:745 - Mapping collection: pl.studioit.puzzlecrm.domain.Category.children -> category
+16:10:47,465  INFO Configuration:1646 - Hibernate Validator not found: ignoring
+16:10:47,519  INFO Version:56 - Hibernate Validator 4.1.0.Final
+16:10:47,547  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+16:10:47,744  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+16:10:47,755  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+16:10:47,764  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+16:10:47,775  INFO ConnectionProviderFactory:173 - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+16:10:47,783  INFO InjectedDataSourceConnectionProvider:62 - Using provided datasource
+16:10:48,755  INFO SettingsFactory:117 - Database ->
+       name : MySQL
+    version : 5.1.49-1ubuntu8
+      major : 5
+      minor : 1
+16:10:48,757  INFO SettingsFactory:123 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+16:10:48,855  INFO Dialect:108 - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+16:10:48,875  INFO JdbcSupportLoader:79 - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+16:10:48,878  INFO TransactionFactoryFactory:62 - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16:10:48,882  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16:10:48,883  INFO SettingsFactory:179 - Automatic flush during beforeCompletion(): disabled
+16:10:48,884  INFO SettingsFactory:183 - Automatic session close at end of transaction: disabled
+16:10:48,885  INFO SettingsFactory:190 - JDBC batch size: 15
+16:10:48,886  INFO SettingsFactory:193 - JDBC batch updates for versioned data: disabled
+16:10:48,888  INFO SettingsFactory:198 - Scrollable result sets: enabled
+16:10:48,888  INFO SettingsFactory:206 - JDBC3 getGeneratedKeys(): enabled
+16:10:48,889  INFO SettingsFactory:214 - Connection release mode: auto
+16:10:48,892  INFO SettingsFactory:238 - Maximum outer join fetch depth: 2
+16:10:48,893  INFO SettingsFactory:241 - Default batch fetch size: 1
+16:10:48,895  INFO SettingsFactory:245 - Generate SQL with comments: enabled
+16:10:48,896  INFO SettingsFactory:249 - Order SQL updates by primary key: disabled
+16:10:48,896  INFO SettingsFactory:253 - Order SQL inserts for batching: disabled
+16:10:48,898  INFO SettingsFactory:431 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16:10:48,904  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+16:10:48,905  INFO SettingsFactory:261 - Query language substitutions: {}
+16:10:48,906  INFO SettingsFactory:266 - JPA-QL strict compliance: enabled
+16:10:48,914  INFO SettingsFactory:271 - Second-level cache: enabled
+16:10:48,915  INFO SettingsFactory:275 - Query cache: enabled
+16:10:48,916  INFO SettingsFactory:406 - Cache region factory : net.sf.ehcache.hibernate.EhCacheRegionFactory
+16:10:48,917  INFO SettingsFactory:285 - Optimize cache for minimal puts: enabled
+16:10:48,917  INFO SettingsFactory:294 - Structured second-level cache entries: disabled
+16:10:48,918  INFO SettingsFactory:385 - Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+16:10:48,945  INFO SettingsFactory:314 - Echoing all SQL to stdout
+16:10:48,948  INFO SettingsFactory:323 - Statistics: disabled
+16:10:48,949  INFO SettingsFactory:327 - Deleted entity synthetic identifier rollback: disabled
+16:10:48,950  INFO SettingsFactory:343 - Default entity-mode: pojo
+16:10:48,951  INFO SettingsFactory:347 - Named query checking : enabled
+16:10:48,951  INFO SettingsFactory:351 - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+16:10:48,985  INFO SessionFactoryImpl:200 - building session factory
+16:10:48,997 TRACE TypeFactory:72 - Scoping types to session factory org.hibernate.impl.SessionFactoryImpl@ad8bb4
+16:10:48,999  WARN AbstractEhcacheRegionFactory:201 - No TransactionManagerLookup found in Hibernate config, XA Caches will be participating in the two-phase commit!
+16:10:49,025  WARN ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/ko/.m2/repository/net/sf/ehcache/ehcache-core/2.3.1/ehcache-core-2.3.1.jar!/ehcache-failsafe.xml
+16:10:49,629  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [pl.studioit.puzzlecrm.domain.MyEntity]; using defaults.
+16:10:49,732  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [pl.studioit.puzzlecrm.domain.Category]; using defaults.
+16:10:49,846  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+16:10:49,868  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+16:10:50,258  INFO UpdateTimestampsCache:57 - starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+16:10:50,262  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+16:10:50,266  INFO StandardQueryCache:76 - starting query cache at region: org.hibernate.cache.StandardQueryCache
+16:10:50,269  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+16:10:51,417  INFO UpdateChecker:98 - New update(s) found: 2.4.2 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+16:10:58,542  INFO BrokerService:1370 - Successfully deleted temporary storage
+16:10:58,567  INFO BrokerService:462 - Using Persistence Adapter: AMQPersistenceAdapter(activemq)
+16:10:58,637  INFO AMQPersistenceAdapter:177 - AMQStore starting using directory: activemq
+16:10:58,666  INFO ManagementContext:106 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+16:10:58,775  INFO KahaStore:463 - Kaha Store using data directory activemq/kr-store/state
+16:10:58,991  INFO AMQPersistenceAdapter:235 - Active data files: []
+16:10:59,131  INFO BrokerService:703 - ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+16:10:59,132  INFO BrokerService:705 - For help or more information please see: http://activemq.apache.org/
+16:10:59,383  INFO KahaStore:463 - Kaha Store using data directory activemq/kr-store/data
+16:10:59,684  INFO TransportServerThreadSupport:72 - Listening for connections at: tcp://localhost.localdomain:61616
+16:10:59,686  INFO TransportConnector:250 - Connector tcp://localhost:61616 Started
+16:10:59,689  INFO BrokerService:502 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-47426-1306851059195-0:0) started
+16:11:02,252 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:04,380 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:04,381 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:04,418 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:04,461 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:04,461 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:05,515  INFO FilterSecurityInterceptor:156 - Validated configuration attributes
+16:11:06,094  INFO DefaultLifecycleProcessor:330 - Starting beans in phase 2147483647
+16:11:06,114  INFO TransportConnector:250 - Connector vm://localhost Started
+16:11:06,512 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:06,850 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:06,858 DEBUG SQL:111 - 
+    /* insert pl.studioit.puzzlecrm.domain.MyEntity
+        */ insert 
+        into
+            my_entity
+            (lastname, name) 
+        values
+            (?, ?)
+16:11:06,937 TRACE BasicBinder:70 - binding parameter [1] as [VARCHAR] - <null>
+16:11:06,950 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - test
+16:11:07,065 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:07,113  INFO MyEntityServiceImpl:26 - persist MyEntity [id=32, name=testnull]
+16:11:07,211 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:07,212 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:07,217 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:07,607 DEBUG QueryTranslatorImpl:272 - parse() - HQL: select o from pl.studioit.puzzlecrm.domain.Category o where o.parent is null
+16:11:07,697 DEBUG ErrorCounter:91 - throwQueryException() : no errors
+16:11:07,881 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+16:11:07,967 DEBUG FromElement:157 - FromClause{level=1} :  pl.studioit.puzzlecrm.domain.Category (o) -> category0_
+16:11:07,970 DEBUG FromReferenceNode:74 - Resolved :  o -> category0_.id
+16:11:08,005 DEBUG FromReferenceNode:74 - Resolved :  o -> category0_.id
+16:11:08,011 DEBUG DotNode:613 - getDataType() : parent -> org.hibernate.type.ManyToOneType(pl.studioit.puzzlecrm.domain.Category)
+16:11:08,011 DEBUG DotNode:570 - dereferenceShortcut() : property parent in pl.studioit.puzzlecrm.domain.Category does not require a join.
+16:11:08,012 DEBUG DotNode:599 - terminal propertyPath = [parent]
+16:11:08,014 DEBUG FromReferenceNode:74 - Resolved :  o.parent -> category0_.parent
+16:11:08,020 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+16:11:08,021 DEBUG HqlSqlWalker:620 - processQuery() :  ( SELECT ( {select clause} category0_.id ) ( FromClause{level=1} category category0_ ) ( where ( is null ( category0_.parent category0_.id parent ) ) ) )
+16:11:08,060 DEBUG JoinProcessor:179 - Using FROM fragment [category category0_]
+16:11:08,061 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+16:11:08,062 DEBUG ErrorCounter:91 - throwQueryException() : no errors
+16:11:08,139 DEBUG QueryTranslatorImpl:241 - HQL: select o from pl.studioit.puzzlecrm.domain.Category o where o.parent is null
+16:11:08,140 DEBUG QueryTranslatorImpl:242 - SQL: select category0_.id as id1_, category0_.name as name1_, category0_.parent as parent1_ from category category0_ where category0_.parent is null
+16:11:08,141 DEBUG ErrorCounter:91 - throwQueryException() : no errors
+16:11:08,217 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,219 DEBUG SQL:111 - 
+    /* select
+        o 
+    from
+        pl.studioit.puzzlecrm.domain.Category o 
+    where
+        o.parent is null */ select
+            category0_.id as id1_,
+            category0_.name as name1_,
+            category0_.parent as parent1_ 
+        from
+            category category0_ 
+        where
+            category0_.parent is null
+16:11:08,221 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,226 TRACE BasicExtractor:70 - found [1] as column [id1_]
+16:11:08,230 TRACE BasicExtractor:70 - found [bags] as column [name1_]
+16:11:08,231 TRACE BasicExtractor:66 - found [null] as column [parent1_]
+16:11:08,232 TRACE BasicExtractor:70 - found [3] as column [id1_]
+16:11:08,232 TRACE BasicExtractor:70 - found [art] as column [name1_]
+16:11:08,233 TRACE BasicExtractor:66 - found [null] as column [parent1_]
+16:11:08,234 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,234 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,263 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,264 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,266 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 3
+16:11:08,267 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,273 TRACE BasicExtractor:70 - found [4] as column [id1_0_]
+16:11:08,274 TRACE BasicExtractor:70 - found [drawing] as column [name1_0_]
+16:11:08,274 TRACE BasicExtractor:70 - found [3] as column [parent1_0_]
+16:11:08,275 TRACE BasicExtractor:70 - found [3] as column [parent1_1_]
+16:11:08,276 TRACE BasicExtractor:70 - found [4] as column [id1_]
+16:11:08,280 TRACE BasicExtractor:70 - found [8] as column [id1_0_]
+16:11:08,280 TRACE BasicExtractor:70 - found [testowa] as column [name1_0_]
+16:11:08,281 TRACE BasicExtractor:70 - found [3] as column [parent1_0_]
+16:11:08,282 TRACE BasicExtractor:70 - found [3] as column [parent1_1_]
+16:11:08,282 TRACE BasicExtractor:70 - found [8] as column [id1_]
+16:11:08,283 TRACE BasicExtractor:70 - found [30] as column [id1_0_]
+16:11:08,284 TRACE BasicExtractor:70 - found [testowa] as column [name1_0_]
+16:11:08,284 TRACE BasicExtractor:70 - found [3] as column [parent1_0_]
+16:11:08,285 TRACE BasicExtractor:70 - found [3] as column [parent1_1_]
+16:11:08,285 TRACE BasicExtractor:70 - found [30] as column [id1_]
+16:11:08,286 TRACE BasicExtractor:70 - found [31] as column [id1_0_]
+16:11:08,287 TRACE BasicExtractor:70 - found [testowa] as column [name1_0_]
+16:11:08,288 TRACE BasicExtractor:70 - found [3] as column [parent1_0_]
+16:11:08,289 TRACE BasicExtractor:70 - found [3] as column [parent1_1_]
+16:11:08,290 TRACE BasicExtractor:70 - found [31] as column [id1_]
+16:11:08,291 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,292 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,300 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,309 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,311 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 31
+16:11:08,313 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,314 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,314 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,315 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,316 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,318 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 30
+16:11:08,320 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,321 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,322 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,323 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,324 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,326 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 8
+16:11:08,330 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,336 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,337 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,338 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,339 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,341 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 4
+16:11:08,342 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,344 TRACE BasicExtractor:70 - found [5] as column [id1_0_]
+16:11:08,344 TRACE BasicExtractor:70 - found [original] as column [name1_0_]
+16:11:08,345 TRACE BasicExtractor:70 - found [4] as column [parent1_0_]
+16:11:08,346 TRACE BasicExtractor:70 - found [4] as column [parent1_1_]
+16:11:08,346 TRACE BasicExtractor:70 - found [5] as column [id1_]
+16:11:08,347 TRACE BasicExtractor:70 - found [6] as column [id1_0_]
+16:11:08,348 TRACE BasicExtractor:70 - found [abstract] as column [name1_0_]
+16:11:08,348 TRACE BasicExtractor:70 - found [4] as column [parent1_0_]
+16:11:08,349 TRACE BasicExtractor:70 - found [4] as column [parent1_1_]
+16:11:08,349 TRACE BasicExtractor:70 - found [6] as column [id1_]
+16:11:08,350 TRACE BasicExtractor:70 - found [7] as column [id1_0_]
+16:11:08,350 TRACE BasicExtractor:70 - found [pencil] as column [name1_0_]
+16:11:08,351 TRACE BasicExtractor:70 - found [4] as column [parent1_0_]
+16:11:08,352 TRACE BasicExtractor:70 - found [4] as column [parent1_1_]
+16:11:08,352 TRACE BasicExtractor:70 - found [7] as column [id1_]
+16:11:08,353 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,353 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,355 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,355 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,356 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 7
+16:11:08,358 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,358 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,359 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,359 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,360 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,361 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 6
+16:11:08,362 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,363 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,364 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,364 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,365 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,366 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 5
+16:11:08,367 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,368 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,369 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,370 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,371 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,374 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 1
+16:11:08,377 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,378 TRACE BasicExtractor:70 - found [2] as column [id1_0_]
+16:11:08,378 TRACE BasicExtractor:70 - found [backpacs] as column [name1_0_]
+16:11:08,379 TRACE BasicExtractor:70 - found [1] as column [parent1_0_]
+16:11:08,380 TRACE BasicExtractor:70 - found [1] as column [parent1_1_]
+16:11:08,380 TRACE BasicExtractor:70 - found [2] as column [id1_]
+16:11:08,381 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,381 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,382 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+16:11:08,383 DEBUG SQL:111 - 
+    /* load one-to-many pl.studioit.puzzlecrm.domain.Category.children */ select
+        children0_.parent as parent1_1_,
+        children0_.id as id1_,
+        children0_.id as id1_0_,
+        children0_.name as name1_0_,
+        children0_.parent as parent1_0_ 
+    from
+        category children0_ 
+    where
+        children0_.parent=?
+16:11:08,384 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - 2
+16:11:08,385 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+16:11:08,386 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+16:11:08,387 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+16:11:08,419 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:08,420 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:08,423 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:08,465  INFO ActivitiService:25 - Starting Process
+16:11:08,770 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:08,806 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:09,256 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:09,296  INFO ActivitiService:32 - Java Code Geeks Say Hello To Activiti
+16:11:09,434 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:09,434 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:09,436  INFO DroolsService:39 - Executing Rules
+16:11:09,469  INFO CachingConnectionFactory:291 - Established shared JMS Connection: ActiveMQConnection {id=ID:studiobox-47426-1306851059195-2:1,clientId=null,started=false}
+16:11:09,535  INFO MyQueueSender:45 - Message Send
+16:11:09,542  INFO GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@64c34e: startup date [Tue May 31 16:10:41 CEST 2011]; root of context hierarchy
+16:11:09,557  INFO DefaultLifecycleProcessor:345 - Stopping beans in phase 2147483647
+16:11:09,567  INFO BrokerService:537 - ActiveMQ Message Broker (localhost, ID:studiobox-47426-1306851059195-0:0) is shutting down
+16:11:09,607  WARN ActiveMQSessionExecutor:71 - Received a message on a connection which is not yet started. Have you forgotten to call Connection.start()? Connection: ActiveMQConnection {id=ID:studiobox-47426-1306851059195-2:0,clientId=ID:studiobox-47426-1306851059195-3:0,started=false} Received: MessageDispatch {commandId = 5, responseRequired = false, consumerId = ID:studiobox-47426-1306851059195-2:0:1:1, destination = queue://myDestination, message = ActiveMQTextMessage {commandId = 5, responseRequired = true, messageId = ID:studiobox-47426-1306851059195-2:1:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:studiobox-47426-1306851059195-2:1:1:1, destination = queue://myDestination, transactionId = null, expiration = 0, timestamp = 1306851069518, arrival = 0, brokerInTime = 1306851069524, brokerOutTime = 1306851069588, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 1032, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, text = test}, redeliveryCounter = 0}
+16:11:09,700  INFO TransportConnector:285 - Connector tcp://localhost:61616 Stopped
+16:11:09,703  INFO KahaStore:463 - Kaha Store using data directory activemq-data/localhost/tmp_storage
+16:11:09,720  INFO TransportConnector:285 - Connector vm://localhost Stopped
+16:11:09,732  INFO DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8aeed0: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,org.apache.cxf.transport.servlet.ServletTransportFactory,myEntitySOAP,myEntitySOAPService,resource1,kbase1,org.apache.activemq.xbean.XBeanBrokerService#0,jmsFactory,cachingConnectionFactory,jmsTemplate,myDestination,org.springframework.jms.listener.DefaultMessageListenerContainer#0,myQueueListener,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.config.internalBeanConfigurerAspect,reportsDAO,categoryDAO,myEntityDAO,myQueueSender,myEntityService,categoryService,reportsService,activitiService,droolsService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.h2.tools.Server,myDataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,entityManagerFactory,activitiBasicDataSource,activitiDataSource,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.config.http.UserDetailsServiceInjectionBeanPostProcessor#0,org.springframework.security.filterChainProxy,org.springframework.security.core.userdetails.memory.InMemoryDaoImpl#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+16:11:09,759 DEBUG ConnectionManager:444 - opening JDBC connection
+16:11:09,762 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+16:11:09,762 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+16:11:09,776  INFO BrokerService:537 - ActiveMQ Message Broker (localhost, ID:studiobox-47426-1306851059195-0:0) is shutting down
+16:11:09,777  INFO TransportConnector:285 - Connector tcp://localhost:61616 Stopped
+16:11:09,795  INFO BrokerService:583 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-47426-1306851059195-0:0) stopped
+16:11:09,797  INFO LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'myUnit'
+16:11:09,798  INFO SessionFactoryImpl:925 - closing
+16:11:09,862  INFO BrokerService:583 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-47426-1306851059195-0:0) stopped
+17:39:10,030  INFO TestContextManager:185 - @TestExecutionListeners is not present for class [class pl.studioit.puzzlecrm.test.JCGTest]: using defaults.
+17:39:10,708  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-cxf.xml]
+17:39:11,563  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+17:39:11,710  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+17:39:11,789  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+17:39:12,216  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-drools.xml]
+17:39:14,170  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-jms.xml]
+17:39:15,323  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext.xml]
+17:39:15,740  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-activiti.xml]
+17:39:15,788  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/applicationContext-security.xml]
+17:39:15,928  INFO SpringSecurityCoreVersion:22 - You are running with Spring Security Core 3.0.5.RELEASE
+17:39:15,930  INFO SecurityNamespaceHandler:57 - Spring Security 'config' module version is 3.0.5.RELEASE
+17:39:16,131  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/reports/**
+17:39:16,133  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/activiti/**
+17:39:16,134  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/jms/**
+17:39:16,134  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/drools/**
+17:39:16,145  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'isAuthenticated()' for /web/myentity/**
+17:39:16,146  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'hasRole('ROLE_ADMIN')' for /web/users/**
+17:39:16,147  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /resources/**
+17:39:16,148  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /webservices/**
+17:39:16,149  INFO FilterInvocationSecurityMetadataSourceParser:135 - Creating access control expression attribute 'permitAll' for /**
+17:39:16,514  INFO HttpSecurityBeanDefinitionParser:188 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 300, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 1900]
+17:39:16,644  INFO GenericApplicationContext:456 - Refreshing org.springframework.context.support.GenericApplicationContext@64c34e: startup date [Tue May 31 17:39:16 CEST 2011]; root of context hierarchy
+17:39:17,543  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/activiti.properties]
+17:39:17,556  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/activemq.properties]
+17:39:17,557  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from file [/home/ko/workspace-sts/puzzlecrm/target/classes/META-INF/spring/database.properties]
+17:39:18,127  INFO GenericApplicationContext:1332 - Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:39:18,129  INFO GenericApplicationContext:1332 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:39:18,139  INFO GenericApplicationContext:1332 - Bean 'cxf' of type [class org.apache.cxf.bus.CXFBusImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:39:18,197  INFO DefaultListableBeanFactory:555 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18a6e6e: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,org.apache.cxf.transport.servlet.ServletTransportFactory,myEntitySOAP,myEntitySOAPService,resource1,kbase1,org.apache.activemq.xbean.XBeanBrokerService#0,jmsFactory,cachingConnectionFactory,jmsTemplate,myDestination,org.springframework.jms.listener.DefaultMessageListenerContainer#0,myQueueListener,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.config.internalBeanConfigurerAspect,reportsDAO,categoryDAO,myEntityDAO,myQueueSender,myEntityService,categoryService,reportsService,activitiService,droolsService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.h2.tools.Server,myDataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,entityManagerFactory,activitiBasicDataSource,activitiDataSource,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.config.http.UserDetailsServiceInjectionBeanPostProcessor#0,org.springframework.security.filterChainProxy,org.springframework.security.core.userdetails.memory.InMemoryDaoImpl#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+17:39:20,897  INFO LocalContainerEntityManagerFactoryBean:221 - Building JPA container EntityManagerFactory for persistence unit 'myUnit'
+17:39:21,114 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1fc468e
+17:39:21,115 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1fc468e
+17:39:21,115 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1fc468e
+17:39:21,118 DEBUG BasicTypeRegistry:144 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1c5cd7
+17:39:21,130 DEBUG BasicTypeRegistry:144 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@ad4d40
+17:39:21,132 DEBUG BasicTypeRegistry:144 - Adding type registration yes_no -> org.hibernate.type.YesNoType@3c37f4
+17:39:21,137 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@176de14
+17:39:21,138 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@176de14
+17:39:21,138 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@176de14
+17:39:21,141 DEBUG BasicTypeRegistry:144 - Adding type registration character -> org.hibernate.type.CharacterType@6014f7
+17:39:21,142 DEBUG BasicTypeRegistry:144 - Adding type registration char -> org.hibernate.type.CharacterType@6014f7
+17:39:21,143 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6014f7
+17:39:21,147 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@2c03ff
+17:39:21,148 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@2c03ff
+17:39:21,149 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2c03ff
+17:39:21,152 DEBUG BasicTypeRegistry:144 - Adding type registration integer -> org.hibernate.type.IntegerType@86d1da
+17:39:21,153 DEBUG BasicTypeRegistry:144 - Adding type registration int -> org.hibernate.type.IntegerType@86d1da
+17:39:21,154 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@86d1da
+17:39:21,159 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@84aa02
+17:39:21,160 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@84aa02
+17:39:21,161 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@84aa02
+17:39:21,168 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@4ab84c
+17:39:21,169 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@4ab84c
+17:39:21,169 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4ab84c
+17:39:21,175 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@19f90e3
+17:39:21,176 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@19f90e3
+17:39:21,177 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@19f90e3
+17:39:21,182 DEBUG BasicTypeRegistry:144 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@15b55bc
+17:39:21,184 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@15b55bc
+17:39:21,187 DEBUG BasicTypeRegistry:144 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@71949b
+17:39:21,188 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@71949b
+17:39:21,191 DEBUG BasicTypeRegistry:144 - Adding type registration string -> org.hibernate.type.StringType@c5f20f
+17:39:21,192 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.String -> org.hibernate.type.StringType@c5f20f
+17:39:21,195 DEBUG BasicTypeRegistry:144 - Adding type registration url -> org.hibernate.type.UrlType@127e2ee
+17:39:21,196 DEBUG BasicTypeRegistry:144 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@127e2ee
+17:39:21,219 DEBUG BasicTypeRegistry:144 - Adding type registration date -> org.hibernate.type.DateType@1b071c0
+17:39:21,219 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1b071c0
+17:39:21,225 DEBUG BasicTypeRegistry:144 - Adding type registration time -> org.hibernate.type.TimeType@19067e5
+17:39:21,227 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@19067e5
+17:39:21,234 DEBUG BasicTypeRegistry:144 - Adding type registration timestamp -> org.hibernate.type.TimestampType@6d6aa0
+17:39:21,235 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6d6aa0
+17:39:21,236 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6d6aa0
+17:39:21,238 DEBUG BasicTypeRegistry:144 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@229ed4
+17:39:21,242 DEBUG BasicTypeRegistry:144 - Adding type registration calendar -> org.hibernate.type.CalendarType@1503458
+17:39:21,243 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1503458
+17:39:21,243 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1503458
+17:39:21,246 DEBUG BasicTypeRegistry:144 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@14e9851
+17:39:21,251 DEBUG BasicTypeRegistry:144 - Adding type registration locale -> org.hibernate.type.LocaleType@fbcb70
+17:39:21,251 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@fbcb70
+17:39:21,259 DEBUG BasicTypeRegistry:144 - Adding type registration currency -> org.hibernate.type.CurrencyType@8c858a
+17:39:21,260 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@8c858a
+17:39:21,264 DEBUG BasicTypeRegistry:144 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@19c9f16
+17:39:21,265 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@19c9f16
+17:39:21,269 DEBUG BasicTypeRegistry:144 - Adding type registration class -> org.hibernate.type.ClassType@12ca580
+17:39:21,270 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@12ca580
+17:39:21,275 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@15dd32a
+17:39:21,276 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@15dd32a
+17:39:21,278 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@16721bd
+17:39:21,281 DEBUG BasicTypeRegistry:144 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@1970ae0
+17:39:21,284 DEBUG BasicTypeRegistry:144 - Adding type registration binary -> org.hibernate.type.BinaryType@12d26d2
+17:39:21,285 DEBUG BasicTypeRegistry:144 - Adding type registration byte[] -> org.hibernate.type.BinaryType@12d26d2
+17:39:21,287 DEBUG BasicTypeRegistry:144 - Adding type registration [B -> org.hibernate.type.BinaryType@12d26d2
+17:39:21,292 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@14c7a98
+17:39:21,293 DEBUG BasicTypeRegistry:144 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@14c7a98
+17:39:21,293 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@14c7a98
+17:39:21,296 DEBUG BasicTypeRegistry:144 - Adding type registration image -> org.hibernate.type.ImageType@974600
+17:39:21,299 DEBUG BasicTypeRegistry:144 - Adding type registration characters -> org.hibernate.type.CharArrayType@1079ff
+17:39:21,300 DEBUG BasicTypeRegistry:144 - Adding type registration char[] -> org.hibernate.type.CharArrayType@1079ff
+17:39:21,301 DEBUG BasicTypeRegistry:144 - Adding type registration [C -> org.hibernate.type.CharArrayType@1079ff
+17:39:21,304 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1ef3ccd
+17:39:21,305 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1ef3ccd
+17:39:21,305 DEBUG BasicTypeRegistry:144 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1ef3ccd
+17:39:21,308 DEBUG BasicTypeRegistry:144 - Adding type registration text -> org.hibernate.type.TextType@151ac10
+17:39:21,317 DEBUG BasicTypeRegistry:144 - Adding type registration blob -> org.hibernate.type.BlobType@131f2b4
+17:39:21,321 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@131f2b4
+17:39:21,323 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@150f0a7
+17:39:21,329 DEBUG BasicTypeRegistry:144 - Adding type registration clob -> org.hibernate.type.ClobType@f6398
+17:39:21,330 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@f6398
+17:39:21,334 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@b2e752
+17:39:21,338 DEBUG BasicTypeRegistry:144 - Adding type registration serializable -> org.hibernate.type.SerializableType@c5d9c1
+17:39:21,345 DEBUG BasicTypeRegistry:144 - Adding type registration object -> org.hibernate.type.ObjectType@143753
+17:39:21,346 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@143753
+17:39:21,348 DEBUG BasicTypeRegistry:144 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1a40247
+17:39:21,349 DEBUG BasicTypeRegistry:144 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@91a4fb
+17:39:21,350 DEBUG BasicTypeRegistry:144 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1e6978d
+17:39:21,351 DEBUG BasicTypeRegistry:144 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@151dcd6
+17:39:21,352 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1798928
+17:39:21,352 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1ba1d9
+17:39:21,353 DEBUG BasicTypeRegistry:144 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1ed7ac
+17:39:21,354 DEBUG BasicTypeRegistry:144 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@e16785
+17:39:21,432  INFO Version:37 - Hibernate Commons Annotations 3.2.0.Final
+17:39:21,472  INFO Environment:593 - Hibernate 3.6.0.Final
+17:39:21,478  INFO Environment:626 - hibernate.properties not found
+17:39:21,503  INFO Environment:804 - Bytecode provider name : javassist
+17:39:21,514  INFO Environment:685 - using JDK 1.4 java.sql.Timestamp handling
+17:39:21,686  INFO Version:42 - Hibernate EntityManager 3.6.0.Final
+17:39:21,687 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1fc468e
+17:39:21,688 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@1fc468e
+17:39:21,689 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1fc468e
+17:39:21,690 DEBUG BasicTypeRegistry:144 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1c5cd7
+17:39:21,691 DEBUG BasicTypeRegistry:144 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@ad4d40
+17:39:21,691 DEBUG BasicTypeRegistry:144 - Adding type registration yes_no -> org.hibernate.type.YesNoType@3c37f4
+17:39:21,692 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@176de14
+17:39:21,693 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@176de14
+17:39:21,694 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@176de14
+17:39:21,695 DEBUG BasicTypeRegistry:144 - Adding type registration character -> org.hibernate.type.CharacterType@6014f7
+17:39:21,696 DEBUG BasicTypeRegistry:144 - Adding type registration char -> org.hibernate.type.CharacterType@6014f7
+17:39:21,696 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6014f7
+17:39:21,697 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@2c03ff
+17:39:21,698 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@2c03ff
+17:39:21,699 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2c03ff
+17:39:21,700 DEBUG BasicTypeRegistry:144 - Adding type registration integer -> org.hibernate.type.IntegerType@86d1da
+17:39:21,701 DEBUG BasicTypeRegistry:144 - Adding type registration int -> org.hibernate.type.IntegerType@86d1da
+17:39:21,701 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@86d1da
+17:39:21,702 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@84aa02
+17:39:21,709 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@84aa02
+17:39:21,711 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@84aa02
+17:39:21,712 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@4ab84c
+17:39:21,713 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@4ab84c
+17:39:21,714 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4ab84c
+17:39:21,715 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@19f90e3
+17:39:21,716 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@19f90e3
+17:39:21,716 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@19f90e3
+17:39:21,717 DEBUG BasicTypeRegistry:144 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@15b55bc
+17:39:21,718 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@15b55bc
+17:39:21,719 DEBUG BasicTypeRegistry:144 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@71949b
+17:39:21,720 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@71949b
+17:39:21,721 DEBUG BasicTypeRegistry:144 - Adding type registration string -> org.hibernate.type.StringType@c5f20f
+17:39:21,721 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.String -> org.hibernate.type.StringType@c5f20f
+17:39:21,722 DEBUG BasicTypeRegistry:144 - Adding type registration url -> org.hibernate.type.UrlType@127e2ee
+17:39:21,723 DEBUG BasicTypeRegistry:144 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@127e2ee
+17:39:21,724 DEBUG BasicTypeRegistry:144 - Adding type registration date -> org.hibernate.type.DateType@1b071c0
+17:39:21,724 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1b071c0
+17:39:21,725 DEBUG BasicTypeRegistry:144 - Adding type registration time -> org.hibernate.type.TimeType@19067e5
+17:39:21,727 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@19067e5
+17:39:21,728 DEBUG BasicTypeRegistry:144 - Adding type registration timestamp -> org.hibernate.type.TimestampType@6d6aa0
+17:39:21,728 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6d6aa0
+17:39:21,729 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6d6aa0
+17:39:21,730 DEBUG BasicTypeRegistry:144 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@229ed4
+17:39:21,731 DEBUG BasicTypeRegistry:144 - Adding type registration calendar -> org.hibernate.type.CalendarType@1503458
+17:39:21,731 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1503458
+17:39:21,732 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1503458
+17:39:21,733 DEBUG BasicTypeRegistry:144 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@14e9851
+17:39:21,734 DEBUG BasicTypeRegistry:144 - Adding type registration locale -> org.hibernate.type.LocaleType@fbcb70
+17:39:21,735 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@fbcb70
+17:39:21,735 DEBUG BasicTypeRegistry:144 - Adding type registration currency -> org.hibernate.type.CurrencyType@8c858a
+17:39:21,736 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@8c858a
+17:39:21,737 DEBUG BasicTypeRegistry:144 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@19c9f16
+17:39:21,738 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@19c9f16
+17:39:21,739 DEBUG BasicTypeRegistry:144 - Adding type registration class -> org.hibernate.type.ClassType@12ca580
+17:39:21,740 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@12ca580
+17:39:21,740 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@15dd32a
+17:39:21,741 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@15dd32a
+17:39:21,742 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@16721bd
+17:39:21,743 DEBUG BasicTypeRegistry:144 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@1970ae0
+17:39:21,744 DEBUG BasicTypeRegistry:144 - Adding type registration binary -> org.hibernate.type.BinaryType@12d26d2
+17:39:21,744 DEBUG BasicTypeRegistry:144 - Adding type registration byte[] -> org.hibernate.type.BinaryType@12d26d2
+17:39:21,751 DEBUG BasicTypeRegistry:144 - Adding type registration [B -> org.hibernate.type.BinaryType@12d26d2
+17:39:21,753 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@14c7a98
+17:39:21,754 DEBUG BasicTypeRegistry:144 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@14c7a98
+17:39:21,754 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@14c7a98
+17:39:21,755 DEBUG BasicTypeRegistry:144 - Adding type registration image -> org.hibernate.type.ImageType@974600
+17:39:21,756 DEBUG BasicTypeRegistry:144 - Adding type registration characters -> org.hibernate.type.CharArrayType@1079ff
+17:39:21,757 DEBUG BasicTypeRegistry:144 - Adding type registration char[] -> org.hibernate.type.CharArrayType@1079ff
+17:39:21,758 DEBUG BasicTypeRegistry:144 - Adding type registration [C -> org.hibernate.type.CharArrayType@1079ff
+17:39:21,759 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1ef3ccd
+17:39:21,760 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1ef3ccd
+17:39:21,760 DEBUG BasicTypeRegistry:144 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1ef3ccd
+17:39:21,761 DEBUG BasicTypeRegistry:144 - Adding type registration text -> org.hibernate.type.TextType@151ac10
+17:39:21,762 DEBUG BasicTypeRegistry:144 - Adding type registration blob -> org.hibernate.type.BlobType@131f2b4
+17:39:21,763 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@131f2b4
+17:39:21,763 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@150f0a7
+17:39:21,764 DEBUG BasicTypeRegistry:144 - Adding type registration clob -> org.hibernate.type.ClobType@f6398
+17:39:21,765 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@f6398
+17:39:21,765 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@b2e752
+17:39:21,766 DEBUG BasicTypeRegistry:144 - Adding type registration serializable -> org.hibernate.type.SerializableType@c5d9c1
+17:39:21,767 DEBUG BasicTypeRegistry:144 - Adding type registration object -> org.hibernate.type.ObjectType@143753
+17:39:21,768 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@143753
+17:39:21,769 DEBUG BasicTypeRegistry:144 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1a998c7
+17:39:21,770 DEBUG BasicTypeRegistry:144 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@16d4b50
+17:39:21,771 DEBUG BasicTypeRegistry:144 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6b93c5
+17:39:21,771 DEBUG BasicTypeRegistry:144 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@b28980
+17:39:21,772 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@161509b
+17:39:21,772 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1f30035
+17:39:21,773 DEBUG BasicTypeRegistry:144 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@92af24
+17:39:21,773 DEBUG BasicTypeRegistry:144 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@287b58
+17:39:21,817  INFO Ejb3Configuration:519 - Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+17:39:22,207  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.MyEntity
+17:39:22,271  INFO SettingsFactory:406 - Cache region factory : net.sf.ehcache.hibernate.EhCacheRegionFactory
+17:39:22,348  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.MyEntity on table my_entity
+17:39:22,519  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.Reports
+17:39:22,520  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.Reports on table jcgreports
+17:39:22,530  INFO AnnotationBinder:532 - Binding entity from annotated class: pl.studioit.puzzlecrm.domain.Category
+17:39:22,532  INFO EntityBinder:519 - Bind entity pl.studioit.puzzlecrm.domain.Category on table category
+17:39:22,690  INFO CollectionBinder:745 - Mapping collection: pl.studioit.puzzlecrm.domain.Category.children -> category
+17:39:22,717  INFO Configuration:1646 - Hibernate Validator not found: ignoring
+17:39:22,765  INFO Version:56 - Hibernate Validator 4.1.0.Final
+17:39:22,795  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+17:39:23,102  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+17:39:23,113  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+17:39:23,123  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+17:39:23,153  INFO ConnectionProviderFactory:173 - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+17:39:23,161  INFO InjectedDataSourceConnectionProvider:62 - Using provided datasource
+17:39:24,064  INFO SettingsFactory:117 - Database ->
+       name : MySQL
+    version : 5.1.49-1ubuntu8
+      major : 5
+      minor : 1
+17:39:24,075  INFO SettingsFactory:123 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+17:39:24,169  INFO Dialect:108 - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+17:39:24,199  INFO JdbcSupportLoader:79 - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+17:39:24,201  INFO TransactionFactoryFactory:62 - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+17:39:24,204  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+17:39:24,205  INFO SettingsFactory:179 - Automatic flush during beforeCompletion(): disabled
+17:39:24,205  INFO SettingsFactory:183 - Automatic session close at end of transaction: disabled
+17:39:24,206  INFO SettingsFactory:190 - JDBC batch size: 15
+17:39:24,207  INFO SettingsFactory:193 - JDBC batch updates for versioned data: disabled
+17:39:24,209  INFO SettingsFactory:198 - Scrollable result sets: enabled
+17:39:24,211  INFO SettingsFactory:206 - JDBC3 getGeneratedKeys(): enabled
+17:39:24,212  INFO SettingsFactory:214 - Connection release mode: auto
+17:39:24,214  INFO SettingsFactory:238 - Maximum outer join fetch depth: 2
+17:39:24,215  INFO SettingsFactory:241 - Default batch fetch size: 1
+17:39:24,216  INFO SettingsFactory:245 - Generate SQL with comments: enabled
+17:39:24,217  INFO SettingsFactory:249 - Order SQL updates by primary key: disabled
+17:39:24,217  INFO SettingsFactory:253 - Order SQL inserts for batching: disabled
+17:39:24,218  INFO SettingsFactory:431 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+17:39:24,222  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+17:39:24,223  INFO SettingsFactory:261 - Query language substitutions: {}
+17:39:24,223  INFO SettingsFactory:266 - JPA-QL strict compliance: enabled
+17:39:24,224  INFO SettingsFactory:271 - Second-level cache: enabled
+17:39:24,225  INFO SettingsFactory:275 - Query cache: enabled
+17:39:24,225  INFO SettingsFactory:406 - Cache region factory : net.sf.ehcache.hibernate.EhCacheRegionFactory
+17:39:24,226  INFO SettingsFactory:285 - Optimize cache for minimal puts: enabled
+17:39:24,227  INFO SettingsFactory:294 - Structured second-level cache entries: disabled
+17:39:24,227  INFO SettingsFactory:385 - Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+17:39:24,237  INFO SettingsFactory:314 - Echoing all SQL to stdout
+17:39:24,239  INFO SettingsFactory:323 - Statistics: disabled
+17:39:24,240  INFO SettingsFactory:327 - Deleted entity synthetic identifier rollback: disabled
+17:39:24,241  INFO SettingsFactory:343 - Default entity-mode: pojo
+17:39:24,241  INFO SettingsFactory:347 - Named query checking : enabled
+17:39:24,242  INFO SettingsFactory:351 - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+17:39:24,307  INFO SessionFactoryImpl:200 - building session factory
+17:39:24,318 TRACE TypeFactory:72 - Scoping types to session factory org.hibernate.impl.SessionFactoryImpl@113f501
+17:39:24,321  WARN AbstractEhcacheRegionFactory:201 - No TransactionManagerLookup found in Hibernate config, XA Caches will be participating in the two-phase commit!
+17:39:24,328  WARN ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/ko/.m2/repository/net/sf/ehcache/ehcache-core/2.3.1/ehcache-core-2.3.1.jar!/ehcache-failsafe.xml
+17:39:24,884  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [pl.studioit.puzzlecrm.domain.MyEntity]; using defaults.
+17:39:25,008  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [pl.studioit.puzzlecrm.domain.Category]; using defaults.
+17:39:25,150  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+17:39:25,176  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+17:39:25,329  INFO UpdateTimestampsCache:57 - starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+17:39:25,336  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+17:39:25,345  INFO StandardQueryCache:76 - starting query cache at region: org.hibernate.cache.StandardQueryCache
+17:39:25,347  WARN AbstractEhcacheRegionFactory:143 - Couldn't find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+17:39:27,046  INFO UpdateChecker:98 - New update(s) found: 2.4.2 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+17:39:35,136  INFO BrokerService:1370 - Successfully deleted temporary storage
+17:39:35,168  INFO BrokerService:462 - Using Persistence Adapter: AMQPersistenceAdapter(activemq)
+17:39:35,267  INFO AMQPersistenceAdapter:177 - AMQStore starting using directory: activemq
+17:39:35,336  INFO KahaStore:463 - Kaha Store using data directory activemq/kr-store/state
+17:39:35,537  INFO ManagementContext:106 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+17:39:35,580  INFO AMQPersistenceAdapter:235 - Active data files: [1]
+17:39:35,661  INFO BrokerService:703 - ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+17:39:35,661  INFO BrokerService:705 - For help or more information please see: http://activemq.apache.org/
+17:39:35,966  INFO KahaStore:463 - Kaha Store using data directory activemq/kr-store/data
+17:39:36,314  INFO TransportServerThreadSupport:72 - Listening for connections at: tcp://localhost.localdomain:61616
+17:39:36,315  INFO TransportConnector:250 - Connector tcp://localhost:61616 Started
+17:39:36,322  INFO BrokerService:502 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-34545-1306856375765-0:0) started
+17:39:38,868 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:40,530 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:40,531 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:40,577 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:40,657 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:40,658 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:41,991  INFO FilterSecurityInterceptor:156 - Validated configuration attributes
+17:39:42,502  INFO DefaultLifecycleProcessor:330 - Starting beans in phase 2147483647
+17:39:42,514  INFO TransportConnector:250 - Connector vm://localhost Started
+17:39:42,892 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:43,203  INFO MyQueueListener:14 - JMS message received: test
+17:39:43,330 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+17:39:43,334 DEBUG SQL:111 - 
+    /* insert pl.studioit.puzzlecrm.domain.MyEntity
+        */ insert 
+        into
+            my_entity
+            (lastname, name) 
+        values
+            (?, ?)
+17:39:43,412 TRACE BasicBinder:70 - binding parameter [1] as [VARCHAR] - <null>
+17:39:43,414 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - test
+17:39:43,440 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+17:39:43,498  INFO MyEntityServiceImpl:26 - persist MyEntity [id=33, name=testnull]
+17:39:43,604 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:43,605 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:43,610 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:43,951 DEBUG QueryTranslatorImpl:272 - parse() - HQL: select o from pl.studioit.puzzlecrm.domain.Category o where o.parent is null
+17:39:44,050 DEBUG ErrorCounter:91 - throwQueryException() : no errors
+17:39:44,213 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+17:39:44,301 DEBUG FromElement:157 - FromClause{level=1} :  pl.studioit.puzzlecrm.domain.Category (o) -> category0_
+17:39:44,304 DEBUG FromReferenceNode:74 - Resolved :  o -> category0_.id
+17:39:44,325 DEBUG FromReferenceNode:74 - Resolved :  o -> category0_.id
+17:39:44,329 DEBUG DotNode:613 - getDataType() : parent -> org.hibernate.type.ManyToOneType(pl.studioit.puzzlecrm.domain.Category)
+17:39:44,330 DEBUG DotNode:570 - dereferenceShortcut() : property parent in pl.studioit.puzzlecrm.domain.Category does not require a join.
+17:39:44,332 DEBUG DotNode:599 - terminal propertyPath = [parent]
+17:39:44,332 DEBUG FromReferenceNode:74 - Resolved :  o.parent -> category0_.parent
+17:39:44,333 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+17:39:44,334 DEBUG HqlSqlWalker:620 - processQuery() :  ( SELECT ( {select clause} category0_.id ) ( FromClause{level=1} category category0_ ) ( where ( is null ( category0_.parent category0_.id parent ) ) ) )
+17:39:44,357 DEBUG JoinProcessor:179 - Using FROM fragment [category category0_]
+17:39:44,359 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+17:39:44,360 DEBUG ErrorCounter:91 - throwQueryException() : no errors
+17:39:44,431 DEBUG QueryTranslatorImpl:241 - HQL: select o from pl.studioit.puzzlecrm.domain.Category o where o.parent is null
+17:39:44,432 DEBUG QueryTranslatorImpl:242 - SQL: select category0_.id as id2_, category0_.name as name2_, category0_.parent as parent2_ from category category0_ where category0_.parent is null
+17:39:44,433 DEBUG ErrorCounter:91 - throwQueryException() : no errors
+17:39:44,526 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+17:39:44,527 DEBUG SQL:111 - 
+    /* select
+        o 
+    from
+        pl.studioit.puzzlecrm.domain.Category o 
+    where
+        o.parent is null */ select
+            category0_.id as id2_,
+            category0_.name as name2_,
+            category0_.parent as parent2_ 
+        from
+            category category0_ 
+        where
+            category0_.parent is null
+17:39:44,538 DEBUG AbstractBatcher:426 - about to open ResultSet (open ResultSets: 0, globally: 0)
+17:39:44,542 TRACE BasicExtractor:70 - found [1] as column [id2_]
+17:39:44,555 TRACE BasicExtractor:70 - found [bags] as column [name2_]
+17:39:44,556 TRACE BasicExtractor:66 - found [null] as column [parent2_]
+17:39:44,557 TRACE BasicExtractor:70 - found [3] as column [id2_]
+17:39:44,558 TRACE BasicExtractor:70 - found [art] as column [name2_]
+17:39:44,559 TRACE BasicExtractor:66 - found [null] as column [parent2_]
+17:39:44,559 DEBUG AbstractBatcher:433 - about to close ResultSet (open ResultSets: 1, globally: 1)
+17:39:44,561 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+17:39:44,599 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:44,599 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:44,603 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:44,646  INFO ActivitiService:25 - Starting Process
+17:39:45,065 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:45,126 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:45,127 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:45,635  INFO ActivitiService:32 - Java Code Geeks Say Hello To Activiti
+17:39:45,782 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:45,791 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:45,794  INFO DroolsService:39 - Executing Rules
+17:39:45,832  INFO CachingConnectionFactory:291 - Established shared JMS Connection: ActiveMQConnection {id=ID:studiobox-34545-1306856375765-2:1,clientId=null,started=false}
+17:39:45,875  INFO MyQueueSender:45 - Message Send
+17:39:45,876  INFO MyQueueListener:14 - JMS message received: test
+17:39:45,883  INFO GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@64c34e: startup date [Tue May 31 17:39:16 CEST 2011]; root of context hierarchy
+17:39:45,891  INFO BrokerService:537 - ActiveMQ Message Broker (localhost, ID:studiobox-34545-1306856375765-0:0) is shutting down
+17:39:45,907  INFO DefaultLifecycleProcessor:345 - Stopping beans in phase 2147483647
+17:39:46,327  INFO TransportConnector:285 - Connector tcp://localhost:61616 Stopped
+17:39:46,342  INFO KahaStore:463 - Kaha Store using data directory activemq-data/localhost/tmp_storage
+17:39:46,349  INFO TransportConnector:285 - Connector vm://localhost Stopped
+17:39:46,508  INFO BrokerService:583 - ActiveMQ JMS Message Broker (localhost, ID:studiobox-34545-1306856375765-0:0) stopped
+17:39:46,881  INFO DefaultListableBeanFactory:422 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18a6e6e: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,org.apache.cxf.transport.servlet.ServletTransportFactory,myEntitySOAP,myEntitySOAPService,resource1,kbase1,org.apache.activemq.xbean.XBeanBrokerService#0,jmsFactory,cachingConnectionFactory,jmsTemplate,myDestination,org.springframework.jms.listener.DefaultMessageListenerContainer#0,myQueueListener,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.config.internalBeanConfigurerAspect,reportsDAO,categoryDAO,myEntityDAO,myQueueSender,myEntityService,categoryService,reportsService,activitiService,droolsService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.h2.tools.Server,myDataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,entityManagerFactory,activitiBasicDataSource,activitiDataSource,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.config.http.UserDetailsServiceInjectionBeanPostProcessor#0,org.springframework.security.filterChainProxy,org.springframework.security.core.userdetails.memory.InMemoryDaoImpl#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+17:39:46,922 DEBUG ConnectionManager:444 - opening JDBC connection
+17:39:46,925 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+17:39:46,926 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+17:39:46,934  INFO LocalContainerEntityManagerFactoryBean:406 - Closing JPA EntityManagerFactory for persistence unit 'myUnit'
+17:39:46,934  INFO SessionFactoryImpl:925 - closing

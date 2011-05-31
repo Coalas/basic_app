@@ -37,7 +37,7 @@ public class Category implements Serializable {
 	@NotNull(message = "Pole nie może być puste!")
     private String name;
 	
-	@OneToMany(mappedBy = "parent", cascade=CascadeType.ALL, fetch=FetchType.EAGER) 
+	@OneToMany(mappedBy = "parent", cascade=CascadeType.ALL, fetch=FetchType.LAZY) 
 	//@JoinColumn(name = "parent") 
 	//@OrderColumn
 	private List<Category> children = new LinkedList<Category>(); 

@@ -52,12 +52,16 @@ public class JCGTest extends TestCase {
 		//list.add(entity);
 		//categoryService.find(3L).setChildren(list);
 		
-		Category cat = categoryService.find(3L);
-		assertEquals(3, cat.getChildren().size());
-		entity.setParent(cat);
+		//Category cat = categoryService.find(3L);
+		List <Category> l = categoryService.findLevel(0);
+		for (Category c: l) {
+			System.out.println("Menu "+c.getName());
+		}
+		//assertEquals(3, cat.getChildren().size());
+		//entity.setParent(cat);
 		//cat.getChildren().add(entity);
 		//categoryService.merge(cat);
-		categoryService.persist(entity);
+		//categoryService.persist(entity);
 		
 
 	}
