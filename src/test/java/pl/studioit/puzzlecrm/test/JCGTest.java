@@ -25,8 +25,8 @@ import pl.studioit.puzzlecrm.service.MyEntityService;
 public class JCGTest extends TestCase {
 	@Autowired
 	private MyEntityService myEntityService;
-	@Autowired
-	private CategoryService categoryService;
+
+
 	@Autowired
 	private ActivitiService activitiService;
 	
@@ -42,29 +42,7 @@ public class JCGTest extends TestCase {
 		entity.setName("test");
 		myEntityService.persist(entity);
 	}
-	@Test
-	public void testCategoryEntity() {
-		//categoryService.findLevel(0);
-		Category entity = new Category();
-		entity.setName("testowa");
-		
-		//List<Category> list = new  LinkedList<Category>();
-		//list.add(entity);
-		//categoryService.find(3L).setChildren(list);
-		
-		//Category cat = categoryService.find(3L);
-		List <Category> l = categoryService.findLevel(0);
-		for (Category c: l) {
-			System.out.println("Menu "+c.getName());
-		}
-		//assertEquals(3, cat.getChildren().size());
-		//entity.setParent(cat);
-		//cat.getChildren().add(entity);
-		//categoryService.merge(cat);
-		//categoryService.persist(entity);
-		
-
-	}
+	
 	@Test
 	public void testActiviti() {
 		activitiService.startProcess();

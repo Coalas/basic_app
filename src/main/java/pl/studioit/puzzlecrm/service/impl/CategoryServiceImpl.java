@@ -78,7 +78,8 @@ public class CategoryServiceImpl implements CategoryService {
 		return categoryDAO.findEntries(firstResult, maxResults);
 	}
 	@Transactional(readOnly=true)
-	public List<Category> findLevel(int level){
-		return categoryDAO.findLevel(level);
+	public List<Category> findSubTree(String category){
+		return categoryDAO.findSubTree(category);
 	}
+	
 }

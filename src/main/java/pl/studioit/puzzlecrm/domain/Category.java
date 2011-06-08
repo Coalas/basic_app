@@ -17,7 +17,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 @Cacheable(true)
 @Entity
 @Table(name = "category")
@@ -73,7 +72,7 @@ public class Category implements Serializable {
 	}
 
 	public Category(Long id, String name, Category parent) {
-		super();
+ 
 		this.id = id;
 		this.name = name;
 		this.parent = parent;

@@ -16,5 +16,5 @@ public interface CategoryService {
 	public long count();
 	public List<Category> findAll();
 	public List<Category> findEntries(int firstResult, int maxResults);
-	public List<Category> findLevel(int level);
+	public List<Category> findSubTree(String category);
 }

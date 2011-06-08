@@ -7,9 +7,16 @@ import pl.studioit.puzzlecrm.domain.Category;
 
 @Repository("categoryDAO")
 public class CategoryDAO extends GenericDAO<Category,Long> {
+	private List<Category> categories;
 	
-	public List<Category> findLevel(int level) {
-		return entityManager.createQuery("select o from " + entityClass.getName() + " o where o.parent is null", entityClass).getResultList();
+	public List<Category> findSubTree(String category) {
+			
+		 	
+			categories = entityManager.createQuery("select o from " + entityClass.getName() + " o where o.parent.name=:category order by o.name", entityClass).setParameter("category", category).getResultList();  
+        
+        	 
+			
+	return categories;
 		
 	}
 

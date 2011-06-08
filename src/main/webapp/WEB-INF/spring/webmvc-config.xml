@@ -25,8 +25,7 @@
 
     <mvc:view-controller path="/login" />
 	<mvc:view-controller path="/" view-name="index"/>
-
-	
+    
 	<bean class="org.springframework.context.support.ReloadableResourceBundleMessageSource" id="messageSource" p:basenames="WEB-INF/i18n/messages,WEB-INF/i18n/application" p:fallbackToSystemLocale="false"/>
 	
 	<!-- store preferred language configuration in a cookie -->
